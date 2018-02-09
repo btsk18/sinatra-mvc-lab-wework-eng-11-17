@@ -7,7 +7,7 @@ class PigLatinizer
       word = word + 'ay'
     elsif word =~ (/\A[^aeiou]/i)
       match = /\A[^aeiou]/i.match(word)
-      word = match.post_match + match.to_s + 'ay'
+      word = match.post_match + match.to_s + 'way'
     end
     word
   end
