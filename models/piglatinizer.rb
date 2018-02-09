@@ -18,7 +18,7 @@ def piglatinize(word)
       move_last_letter(word) + 'ay'
     end
   else
-    word
+    word + 'way'
   end
 end
 
