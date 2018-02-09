@@ -9,3 +9,4 @@ class PigLatinizer
     word = word.gsub(" ", "qu")
   end
 end
+end
