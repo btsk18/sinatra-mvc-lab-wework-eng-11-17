@@ -2,7 +2,7 @@ class PigLatinizer
 
 
 
-  def piglatinize word
+  def piglatinize sentence
     sentence.split(" ").map do |word|
     word = word.gsub("qu", " ")
     word.gsub!(/^([^aeiou]*)(.*)/,'\2\1ay')
