@@ -2,7 +2,7 @@ class PigLatinizer
 
   def to_pig_latin(sentence)
   sentence.gsub('.','').split(' ').collect do |word|
-    translate word
+    piglatinize word
   end.compact.join(' ')
 end
 
