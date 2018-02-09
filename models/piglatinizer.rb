@@ -15,7 +15,7 @@ def piglatinize(word)
     elsif vowel?(first_letter=word[0].downcase)
       word + 'ay'
     elsif vowel?(last_letter=word[-1].downcase)
-      move_last_letter(word) + 'ay'
+      move_last_letter(word) + 'way'
     end
   else
     word + 'way'
