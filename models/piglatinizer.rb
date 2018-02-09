@@ -10,4 +10,5 @@ class PigLatinizer
       word = match.post_match + match.to_s + 'ay'
     end
     word
+  end
 end
