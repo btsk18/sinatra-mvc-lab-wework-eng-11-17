@@ -8,6 +8,5 @@ class PigLatinizer
       word.gsub!(/^([^aeiou]*)(.*)/,'\2\1ay')
       word = word.gsub(" ", "qu")
     end
-    sentence
   end
 end
