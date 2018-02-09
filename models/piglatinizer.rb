@@ -1,4 +1,4 @@
-class Piglatinize
+class Piglatinizer
 
   
 
