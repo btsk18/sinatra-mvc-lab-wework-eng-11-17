@@ -1,6 +1,6 @@
-class Piglatinizer
+class PigLatinizer
 
-  
+
 
   def piglatinize(word)
     word.reverse
