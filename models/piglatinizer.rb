@@ -13,9 +13,9 @@ def piglatinize(word)
     elsif capture = consonant_expression.match(word)
       capture.post_match.to_s + capture.to_s + 'ay'
     elsif vowel?(first_letter=word[0].downcase)
-      word + 'ay'
+      word + 'way'
     elsif vowel?(last_letter=word[-1].downcase)
-      move_last_letter(word) + 'way'
+      move_last_letter(word) + 'ay'
     end
   else
     word + 'way'
